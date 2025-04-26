@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <title>内部样式表</title>
+  <style>
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>行内样式表</h2>
+  行内式<br>
+  是在元素内部直接放style属性设定，适用于简单样式<br>
+  style是标签属性
+  <p>夏天夏天悄悄过去留下小秘密</p>
+  <p>压心底压箱底不能告诉你</p>
+  <p>多甜蜜多甜蜜怎么能忘记</p>
+  <p style="color: fuchsia; font-size: 20px;">给我一个粉红色回忆</p>
+  <h2>内部样式表</h2>
+  嵌入式
+  <p>
+  <div>是写在HTML的页面内部，将所有的css代码抽取出来，放在style中</div><br>
+  style标签可以放在任意的地方，但一般都放在head里面<br>
+  通过此方式，可以控制整个页面中的元素控制<br>
+  代码结构清晰，但是并没有实现结构与样式完全分离
+  </p>
+
+  <h2>外部样式表</h2>
+  连接式<br>
+  用的最多<br>
+  可以控制多个页面<br>
+  在外部单独健一个css文件，只放css，之后引入HTML中<br>
+  首先新建一个css文件，把所有css放在里面<br>
+  然后通过link标签引入这个文件<br>
+  <div>我的女儿苏暖暖天下第一可爱</div>
+</body>
+
+</html>
